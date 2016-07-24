@@ -1,0 +1,31 @@
+{
+  "db_password" : "changeme",
+  "ssh_keys": {
+    "paulg": {
+      "user": "p.gomersbach@rely.nl",
+      "ssh_key": "CCCCC3NzaC1yc2EAAAABIwAAAQEA9Y9X..."
+    },
+    "karel": {
+      "user": "admin@dirict.nl",
+      "ssh_key": "DDDDD3NzaC1yc2EAAAABIwAAAQEA9Y9X..."
+    }
+  },
+  "profile_apache::log_level" : "info",
+  "profile_apache::vhost" : "%{fqdn}",
+  "profile_apache::docroot" : "/home/notarisdossier/application/current/frontends/office/public/",
+  "profile_apache::nfs_mountpoint" : "/mnt/templates",
+  "profile_apache::serveradmin" : "webmaster@notarisdossier.nl",
+  "profile_apache::logroot" : "/home/notarisdossier",
+  "profile_apache::error_log_file" : "/vhostlog/pro.notarisdossier.nl.log",
+  "profile_apache::access_log_file" : "/home/notarisdossier/vhostlog/pro.notarisdossier.nl.ssl_access.log",
+  "profile_apache::ssl_cert" : "",
+  "profile_apache::ssl_key" : "",
+  "profile_apache::ssl_chain" : "",
+  "profile_apache::dirict_username" : "dirict",
+  "profile_apache::dirict_password" : "changeme",
+  "profile_apache::azure_account" : "",
+  "profile_apache::azure_access_key" : "",
+  "profile_apache::webservices_dirict_username" : "dirict",
+  "profile_apache::webservices_dirict_password" : "changeme",
+  "profile_apache::webdav_dirict_templates_password" : "changeme"
+}
